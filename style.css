@@ -1,7 +1,6 @@
 :root {
   --primary: #1c4587;
   --text-light: #f2f3eb;
-  --mb: 1.5rem;
   --primary-lighten: #cde2f7;
 }
 
@@ -18,7 +17,7 @@ header {
   color: var(--text-light);
   text-align: center;
   padding: 0.1%;
-  margin-bottom: var(--mb);
+  margin-bottom: 1.5%;
   position: fixed;
   top: 0;
   left: 0;
@@ -54,20 +53,21 @@ body {
   width: fit-content;
   position: relative;
   margin-left: 35%;
+  margin-top: 1%;
 }
 
 .main-article {
   width: 85vw;
-  margin-top: 8rem;
-  padding: 0 10rem;
+  margin-top: 6%;
+  padding: 0 10%;
   text-align: justify;
 }
 
 .side-article {
   width: 15vw;
-  margin-right: 2rem;
-  margin-top: 8.5rem;
-  margin-left: -5rem;
+  margin-right: 2%;
+  margin-top: 7%;
+  margin-left: -5%;
 }
 
 .article-image {
